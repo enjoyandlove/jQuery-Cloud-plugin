@@ -69,9 +69,3 @@ AwesomeCloud uses the HTML5 canvas element to create word clouds similar to [htt
 If your words are all fairly evenly weighted and are large compared to the containing element, you may need to adjust the size.grid setting to make the output more attractive. Conversely, you can adjust the size.factor setting instead.
 
 It should be noted that the more words you have, the smaller the size.grid, and the larger the options.printMultiplier, the longer it will take to generate and display the word cloud.
-
-## Extra Thanks
-
-Without Timothy Chien's work ([https://github.com/timdream/wordcloud](https://github.com/timdream/wordcloud)), this plugin would have taken much longer and been much uglier. Fate smiled and I found his version while I was searching out the equations I needed to make a circle-shaped cloud. I've simplified and, in places, dumbified his code for this plugin, and even outright copied chunks of it since those parts just worked far better than what I had originally written. Many thanks, Timothy, for saving some of my wits, sanity and hair over the past week.
-
-Thanks to http://www.websanova.com/tutorials/jquery/jquery-plugin-development-boilerplate for providing a great boilerplate I could use for my first jQuery plugin. My original layout worked, but this one was much better.
